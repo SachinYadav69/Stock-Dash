@@ -6,16 +6,18 @@ import Pricing from './Pricing';
 import OpenAccount from '../OpenAccount'
 import Footer from '../Footer'
 import Navbar from '../Navbar'
+import Education from './Education'
 
 
 function HomePage() {
     return ( 
          <>
-            <Navbar/>
+             <Navbar/>
              <Hero/>
              <Awards/>
              <Stats/>
              <Pricing/>
+             <Education/>
              <OpenAccount/>
              <Footer/>
              
